@@ -41,7 +41,7 @@ function Passwordgenerate() {
 
                 <div id="password-field-container">
                     <input type="text" placeholder="Password" readOnly value={password} ref={reference} />
-                    <button id="copybtn" onClick={copyText}>copies</button>
+                    <button id="copybtn" onClick={copyText}>copy</button>
                 </div>
 
                 <div id="criteria-container">
